@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <Button
+        android:id="@+id/btn_to_stud"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Студенты"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_red" />
+
+    <Button
+        android:id="@+id/btn_to_red"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Редактор"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_conv" />
+
+    <Button
+        android:id="@+id/btn_to_conv"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Конвертер"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_reg" />
+
+    <Button
+        android:id="@+id/btn_to_reg"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Регистрация"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_calc" />
+
+    <Button
+        android:id="@+id/btn_to_calc"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:text="Калькулятор"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
